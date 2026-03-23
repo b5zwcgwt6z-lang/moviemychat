@@ -1,0 +1,88 @@
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Environments & Secrets ---
+# 개인 설정 및 비밀 정보 포함 파일들
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# --- Node.js (movie-front) ---
+# 의존성 및 빌드 결과물
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# --- Python (movie-back) ---
+# 컴파일된 파일 및 가상 환경
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.Python
+.venv/
+**/ .venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Project Specific (Temporary/Personal Files) ---
+# 프로젝트 내의 임시 텍스트 및 구조 파악용 파일들
+movie-front/Edittxt.txt
+movie-front/text.txt
+movie-front/pc-structure.json
+*.tmp
+*.temp
+logs/
+*.log
+
+*/.env
+*/.env.local
+*/.text.txt
